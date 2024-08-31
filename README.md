@@ -13,7 +13,7 @@ Servlet3.0官方支持第三方插件植入，也就是可以抛弃web.xml再结
 关键注解：@HandlesTypes；
 
 
-2024.1.9日更新：
+2024.1.9日更新：适配Tomcat 10+
 1. 在新版本tomcat环境下，ServletContainerInitializer的spi文件路径发生变化，新版路径为META-INF/services/jakarta.servlet_initializer.ServletContainerInitializer
 2. META-INF要放在idea的resources目录中
 
